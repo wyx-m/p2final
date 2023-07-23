@@ -1,0 +1,72 @@
+.msg-area{
+  height: 75%;
+  width: 98%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.agentPic{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d6/Suga_for_Marie_Claire_Korea%2C_May_2023_issue_07.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75px
+}
+
+.inputSection{
+  height: 10%;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  border-radius:50px;
+  margin: 10px;
+}
+
+.userMessage{
+  border-radius: 15px;
+  margin-right: 2px;
+}
+.message {
+  padding: 5px 8px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  color: #000;
+  margin: 5px 0;
+  word-wrap: break-word;
+}
+
+.send{
+  border: solid 2px black;
+}
+
+
+
+.left{
+    color:black;
+    background:lightgray;
+    border-radius:10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.message.right{
+    color:#fff;
+    background:black;
+    border-radius:10px;
+   
+}
+
+  
+  .transition-3 {
+    transition: all 0.33s ease;
+    -webkit-transition: all 0.33s ease;
+    -moz-transition: all 0.33s ease;
+  }
+  
+  .transition-5 {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+  }
+  

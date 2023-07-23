@@ -1,0 +1,11 @@
+.reviews-container{
+    height: 15%;
+    background-color: white;
+    border: solid 2px rgba(227, 222, 223, 0.886);
+
+}
+
+.reviewInput{
+    width: 90%;
+    height: 150px;
+}
